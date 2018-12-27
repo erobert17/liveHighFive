@@ -1,0 +1,8 @@
+0000.004 () Opened log file at time: Mon, 18 Dec 2017 04:21:00 +0000 on http://growyourleads.com/front
+0000.004 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.12.35.22 WP: 4.9.1 PHP: 7.0.20-2~ubuntu14.04.1+deb.sury.org+1 (apache2handler, Linux ubuntu-1gb-nyc3-01-1497897142984-testingzillowerror-1gb-nyc3-01 4.4.0-78-generic #99~14.04.2-Ubuntu SMP Thu Apr 27 18:49:46 UTC 2017 x86_64) MySQL: 5.5.55 WPLANG: en_US Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3.7M | 2M) multisite: N openssl: OpenSSL 1.0.2l  25 May 2017 mcrypt: N LANG: C ZipArchive::addFile: N
+0000.004 () Free space on disk containing Updraft's temporary directory: 23002 MB
+0000.005 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restorer_replacesiteurl":true,"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false}
+0000.013 () Error message: Existing unremoved folders from a previous restore exist (please use the "Delete Old Directories" button to delete them before trying again): /var/www/recoverleads.com/public_html/andrew/public/front/wp-content/plugins-old
+0000.015 () Restore failed...
+0000.015 () Error message: Existing unremoved folders from a previous restore exist (please use the "Delete Old Directories" button to delete them before trying again): /var/www/recoverleads.com/public_html/andrew/public/front/wp-content/plugins-old
+0000.015 () Restore failed

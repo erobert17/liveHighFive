@@ -1,0 +1,410 @@
+/* et-message */
+.et-message {
+    padding-right: 35px;
+    padding-left: 15px;
+}
+
+.et-message:before {
+    left: auto;
+    right: 15px;
+}
+
+/* Dashboard */
+
+.etheme-page-header p {
+    padding-right: 0;
+    padding-left: 30px;
+}
+
+.etheme-page-nav ul li {
+    float: right;
+}
+.et-nav-menu:before,
+.et-nav-portfolio:before,
+.et-nav-speed:before,
+.et-nav-general:before,
+.et-nav-support:before,
+.et-nav-documentation:before {
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+.etheme-purchase span {
+    padding-left: 0;
+    padding-right: 5px;
+}
+
+/* columns */
+
+.et-col-7, .et-col-5 {
+    float: right;
+}
+
+.et-col-7:after {
+    right: auto;
+    left: 0;
+}
+
+/* demos */
+
+.import-additional-pages .page-preview {
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+/* tutorials */
+
+.support-includes li:before {
+    padding-right: 0;
+    padding-left: 5px;
+}
+
+.support-blocks li {
+	float: right;
+}
+
+/* changelog */
+.version-update h4 {
+    float: right;
+}
+
+@media only screen and (max-width: 992px) {
+	.etheme-page-nav ul li a.active:after, 
+	.etheme-page-nav ul li a:hover:after {
+	    right: auto;
+	    left: 0;
+	    border-right-color: transparent;
+	    border-left-color: #fff;
+	}
+}
+
+/* et-button */
+.fright {
+	float: left;
+}
+.et-button + .et-button {
+	margin-right: 5px;
+	margin-left: 0;
+}
+
+/* Redux */
+
+/* redux main */
+.redux-container .redux-main {
+    margin-left: 0;
+    margin-right: 250px;
+}
+/* redux header */
+.redux-action_bar {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.redux-container .redux-action_bar .spinner {
+    float: right;
+}
+
+.redux-container .redux-action_bar .button {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.etheme-support-links {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+.etheme-support-links li {
+    padding-right: 0;
+    padding-left: 15px;
+}
+
+.etheme-search i {
+    padding-right: 0;
+    padding-left: 6px;
+    right: auto;
+    left: 0;
+}
+
+.etheme-search input {
+    padding-right: 10px;
+    padding-left: 30px;
+}
+
+.etheme-search .spinner {
+    right: auto;
+    left: 0;
+}
+
+/* alerts */
+.redux-container .redux-field-errors, 
+.redux-container .redux-field-warnings, 
+.redux-container .redux-save-warn, 
+.redux-container .notice-green {
+    padding-right: 20px;
+    padding-left: 35px;
+}
+
+/* redux menu */
+
+.activate-note {
+    right: auto;
+    left: 10px;
+}
+
+.redux-container .redux-sidebar .hasSubSections .extraIconSubsections .el-chevron-down {
+    right: auto;
+    left: 13px;
+}
+
+.redux-container .redux-sidebar .redux-group-menu > .active > a:after, 
+.redux-container .redux-sidebar .redux-group-menu > .activeChild > a:after {
+    right: auto;
+    left: 0;
+    border-right-color: transparent;
+    border-left-color: #fff;
+}
+
+.redux-container .redux-sidebar .redux-group-tab-link-a span.group_title {
+    padding-left: 0;
+    padding-right: 22px;
+}
+
+.admin-color-fresh .redux-sidebar .redux-group-menu li.active.hasSubSections ul.subsection li a span.group_title, 
+.admin-color-fresh .redux-sidebar .redux-group-menu li.activeChild.hasSubSections ul.subsection li a span.group_title, 
+.wp-customizer .redux-sidebar .redux-group-menu li.active.hasSubSections ul.subsection li a span.group_title, 
+.wp-customizer .redux-sidebar .redux-group-menu li.activeChild.hasSubSections ul.subsection li a span.group_title {
+    padding-left: 0 !important;
+    padding-right: 5px;
+}
+
+.admin-color-fresh .redux-sidebar .redux-group-menu li.active.hasSubSections ul.subsection li a, 
+.admin-color-fresh .redux-sidebar .redux-group-menu li.activeChild.hasSubSections ul.subsection li a, 
+.wp-customizer .redux-sidebar .redux-group-menu li.active.hasSubSections ul.subsection li a, 
+.wp-customizer .redux-sidebar .redux-group-menu li.activeChild.hasSubSections ul.subsection li a {
+    padding-left: 7px;
+    padding-right: 15px;
+}
+
+/* redux main */
+.redux-main .button.remove-image, 
+.redux-main .removeCSS {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+/* redux fields */
+
+.redux-container th + td .redux-field {
+    margin-left: 0;
+    margin-right: 100px;
+}
+
+/* media */
+.redux-main .button.remove-image, .redux-main .removeCSS {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.redux-main .redux-option-image {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+/* spinner */
+.redux-container-spinner .ui-spinner-up {
+    right: auto !important;
+    left: 0 !important;
+}
+.redux-container-spinner .ui-spinner-down {
+    left: auto !important;
+    right: 0 !important;
+}
+
+.redux-container-spinner .ui-spinner-button .ui-icon-triangle-1-n {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAKCAYAAACXDi8zAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADhJREFUeNpi+P//PwM6bmlpwS4IorEKokggC8Il0AVhEv9x6sAmiaz9P05XIUsygmVRAUiAESDAAFHcpVdWtdj/AAAAAElFTkSuQmCC) !important;
+}
+.redux-container-spinner .ui-spinner-button .ui-icon-triangle-1-s {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAKCAYAAACXDi8zAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADxJREFUeNpsjwsKADAIQu3u3tsRY6M5gz7w0AqSQFLdZ3ZRgmf44JQ/EOZ9oYOsiDviVemP2oYoWCwBBgDpO6VXVo3RyQAAAABJRU5ErkJggg==) !important;
+}
+
+/* select */
+
+html[dir="rtl"] .appearance_page__options .select2-search input,
+.appearance_page__options .select2-search input {
+	background-position: 5px 50%;
+}
+
+.redux-container .select2-container .select2-choice abbr {
+    right: auto;
+    left: 36px !important;
+}
+
+.redux-container .redux-field .select2-choice {
+	padding-right: 8px !important;
+	padding-left: 0 !important;
+}
+
+html[dir="rtl"] .redux-container .select2-container .select2-choice > .select2-chosen,
+.redux-container .select2-container .select2-choice > .select2-chosen {
+	margin-right: 0;
+	margin-left: 38px;
+}
+.redux-container .select2-container.select2-allowclear .select2-choice .select2-chosen {
+    margin-right: 0;
+    margin-left: 50px;
+}
+
+.redux-container-spacing select, 
+.redux-container-spacing .select_wrapper {
+    float: right;
+}
+
+.redux-container .redux-field .select2-choice .select2-arrow {
+    border-right: none;
+}
+
+.redux-main .redux-container-background .select2-container {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+/* spacing */
+.redux-container-spacing .field-spacing-input {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+/* colorpicker */
+
+.redux-container .wp-picker-container .wp-color-result.button {
+    padding-left: 0;
+    padding-right: 34px;
+}
+
+.redux-main .wp-picker-container .wp-color-result {
+    margin-right: 0 !important;
+    margin-left: 6px !important;
+}
+
+.redux-main input.color-transparency {
+    margin-left: 3px;
+    margin-right: 10px;
+}
+
+/* st-preview */
+.sp-preview {
+	float: right;
+}
+
+/* switch */
+
+.redux-container-switch .switch-options {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.redux-container-switch .cb-enable, .redux-container-switch .cb-disable, .redux-container-switch .cb-enable span, .redux-container-switch .cb-disable span {
+    float: right;
+}
+
+.redux-container-switch .switch-options label:first-of-type {
+    border-radius: 0 20px 20px 0;
+}
+
+.redux-container-switch .switch-options label:last-of-type {
+    border-radius: 20px 0 0 20px;
+}
+
+.redux-container-switch .cb-enable {
+	border-right: 1px solid;
+	border-left: none;
+}
+
+.redux-container-switch .cb-disable.selected {
+    padding-right: 7px;
+    padding-left: 12px;
+}
+
+.redux-container-switch .cb-disable {
+    border-left: 1px solid;
+    border-right: none;
+}
+
+.redux-container-switch .cb-enable.selected {
+    padding-left: 7px;
+    padding-right: 10px;
+}
+
+.redux-container .switch-options .cb-disable:not(.selected):before {
+    left: 100%;
+    right: auto;
+}
+
+.redux-container .switch-options .cb-enable:not(.selected):before {
+    left: auto;
+    right: 100%;
+}
+
+/* typography */
+
+.redux-main .redux-typography-container .input_wrapper,
+.redux-main .redux-typography-container .wp-picker-container,
+.redux-main .redux-typography-container .select_wrapper {
+    float: right;
+}
+
+.redux-main .redux-typography-container .select_wrapper:nth-child(odd),
+.redux-main .redux-typography-container .select_wrapper:nth-child(even) {
+    margin-right: 0 !important;
+    margin-left: 10px;
+}
+
+.redux-main .redux-typography-container .input_wrapper.font-size {
+    margin-left: 4px;
+    margin-right: 0;
+}
+
+/* sorter */
+
+.redux-container-sorter {
+    margin-right: 0;
+    margin-left: -20px;
+}
+
+.redux-container-sorter ul {
+    float: right;
+    margin: 0 0 0 15px;
+}
+
+@media only screen and (max-width: 992px) {
+	.redux-container .redux-main {
+		margin-right: 180px;
+	}
+}
+
+@media only screen and (max-width: 960px) {
+	.redux-container .redux-main {
+		margin-right: 50px;
+	}
+	.redux-sidebar ul .subsection {
+	    left: auto;
+	    right: 50px;
+	}
+}
+
+@media only screen and (max-width: 782px) {
+	.redux-container #info_bar .redux-action_bar {
+	    margin-left: 0;
+	    margin-right: -40px;
+	}
+	.redux-container th + td .redux-field {
+		margin: 0 auto;
+	}
+	.redux-container-switch .switch-options {
+		margin: 0 auto;
+	}
+	.redux-container-slider, .redux-container-spinner, .redux-container-switch {
+		float: none;
+	}
+}

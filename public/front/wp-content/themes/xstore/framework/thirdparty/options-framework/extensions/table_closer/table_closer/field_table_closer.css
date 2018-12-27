@@ -1,0 +1,245 @@
+.et-modal-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: scale(0.7) translate(-50%, -50%);
+    transition: all 0.3s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+    min-height: 20%;
+    max-height: 80%;
+    overflow-y: scroll;
+    width: 50%;
+    z-index: 1000;
+}
+
+.et-modal-wrapper.loading .et-loader {
+    opacity: 1;
+}
+.et-modal-wrapper.loading .button-primary {
+    color: transparent !important;
+}
+
+.et-modal.container-flex {
+    position: relative;
+    display: flex;
+    padding: 30px 35px 70px;
+    border: 1px solid #d8d8d8;
+    background-color: #fff;
+    justify-content: left;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.modal-opened.et-modal-wrapper {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1) translate(-50%, -50%);
+    width: 80%;
+}
+/* Styles for elements */
+
+/* Customize button */
+
+.et-modal-button {
+    cursor: pointer;
+    border: 1px solid #e1e1e1;
+    background: #f7f7f7;
+    box-shadow: 0 1px 3px 0px #e1e1e1;
+    padding: 7px 10px;
+    transition: all .2s ease-out;
+}
+.et-modal-button:hover {
+    background-color: #f0f0f0;
+}
+
+.et-modal .column-title,
+.et-modal .container-title {
+    font-size: 19px;
+    color: #24282e;
+    line-height: 18px;
+}
+.et-modal .container-title {
+	width: 100%;
+}
+.et-modal .redux_field_th {
+    padding-bottom: 0;
+    color: #646464;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+.et-modal .redux_field_th:first-child {
+    padding-top: 0;
+}
+.redux-container .et-modal .input-prepend {
+    margin-bottom: 10px; 
+}
+.et-modal .flex-child fieldset {
+    border-bottom: 1px solid #e7e7e7;
+}
+.et-modal .flex-child fieldset:nth-last-of-type(2) {
+    border-bottom: none;
+}
+.et-modal .redux-container-border .select2-container {
+    margin-right: 35px;
+    clear: left;
+    min-width: 110px;
+}
+/* Spacing */
+.et-modal .redux-container-border .wp-picker-container {
+	display: block;
+	float: left;
+}
+.modal-closed .et-modal {
+    overflow: hidden;
+}
+.et-modal-wrapper::-webkit-scrollbar {
+   width: 7px;
+}
+.et-modal-wrapper::-webkit-scrollbar-thumb {
+    background-color: #c1c1c1;
+   border-radius: 10px;
+}
+.et-modal-wrapper .modal-desc {
+	position: absolute;
+	bottom: 35px;
+	left: 35px;
+	color: #797979;
+}
+.et-modal-wrapper .et_save-changes {
+    position: absolute;
+    bottom: 32px;
+    right: 35px;
+    pointer-events: all;
+    cursor: pointer;
+}
+.redux-container .redux-main .et-modal-wrapper + .form-table tr:not(:first-child) {
+    border-top: 1px solid #e1e1e1;
+}
+.et-modal .flex-child {
+    transform: scale(0.7);
+    overflow: hidden;
+    transition: all 0.25s ease-in-out 0.3s;
+    box-sizing: border-box;
+}
+.modal-opened .et-modal .flex-child {
+    transform: scale(1);
+}
+/* when modal opened then add opacity for block */
+.full-modal-opened .redux-container {
+    position: relative;
+}
+.full-modal-opened .redux-container:before {
+    display: block;
+    content: ""; 
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: all 0.7s linear;
+    background: rgba(237, 237, 237, 0.7);
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.full-modal-opened .redux-main {
+    position: static;
+}
+.et-modal .et-close-modal {
+    position: absolute;
+    top: 20px;
+    display: block;
+    right: 20px;
+    cursor: pointer;
+    pointer-events: all;
+    width: 20px;
+    height: 20px;
+    transition: all 0.2s ease-in-out;
+}
+.et-modal .et-close-modal:hover {
+    /*transform: scale(1.1);*/
+}
+.et-modal .et-close-modal:before, .et-modal .et-close-modal:after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 20px;
+    background: #000;
+    position: relative;
+    right: 0;
+    top: 10px;
+    transition: all 0.1s ease-in-out;
+}
+
+.et-modal .et-close-modal:before {
+    transform: rotate(45deg);
+}
+
+.et-modal .et-close-modal:after {
+    transform: rotate(-45deg);
+    top: 9px;
+}
+/*.et-modal .et-close-modal:hover:before {
+    transform: rotate(-45deg);
+}
+.et-modal .et-close-modal:hover:after {
+    transform: rotate(45deg);
+}*/
+.et-modal .et-close-modal:hover {
+    transform: scale(1.1);
+}
+.et-modal .et-save-changes {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+.et-modal-wrapper .container-flex .redux-container-custom_column_closer {
+    display: none;
+}
+.et-modal-wrapper .container-flex .flex-child {
+    width: 100%;
+}
+.et-modal-wrapper .column-width-2 .flex-child {
+    width: 50%;
+    padding-right: 20px;
+}
+.et-modal-wrapper .column-width-3 .flex-child {
+    width: 33.33%;
+    padding-right: 25px;
+}
+.et-modal-wrapper .column-width-4 .flex-child {
+    width: 25%;
+    padding-right: 20px;
+}
+.et-modal-wrapper .column-width-5 .flex-child {
+    width: 20%;
+    padding-right: 15px;
+}
+.et-modal-wrapper .column-width-2 .flex-child:nth-of-type(2),
+.et-modal-wrapper .column-width-3 .flex-child:nth-of-type(3),
+.et-modal-wrapper .column-width-4 .flex-child:nth-of-type(4),
+.et-modal-wrapper .column-width-5 .flex-child:nth-of-type(5) {
+    padding-right: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+    .et-modal-wrapper {
+        max-height: 60%;
+    }
+    .et-modal-wrapper .et-modal.container-flex .flex-child {
+        width: 100%;
+        border-bottom: 1px solid #c1c1c1;
+        padding: 15px 0;
+    }
+    .et-modal-wrapper .et-modal.container-flex .flex-child:first-of-type {
+        padding-top: 0;
+    }
+    .et-modal-wrapper .et-modal.container-flex .flex-child:last-of-type {
+        border-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+	.et-modal .redux-container-border .select2-container {
+		margin-bottom: 10px; 
+	}
+}

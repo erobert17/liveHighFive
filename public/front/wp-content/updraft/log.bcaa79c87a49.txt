@@ -1,0 +1,16 @@
+0000.003 () Opened log file at time: Mon, 18 Dec 2017 04:20:15 +0000 on http://growyourleads.com/front
+0000.003 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.16 WP: 4.9.1 PHP: 7.0.20-2~ubuntu14.04.1+deb.sury.org+1 (apache2handler, Linux ubuntu-1gb-nyc3-01-1497897142984-testingzillowerror-1gb-nyc3-01 4.4.0-78-generic #99~14.04.2-Ubuntu SMP Thu Apr 27 18:49:46 UTC 2017 x86_64) MySQL: 5.5.55 WPLANG: en_US Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3.4M | 2M) multisite: N openssl: OpenSSL 1.0.2l  25 May 2017 mcrypt: N LANG: C ZipArchive::addFile: N
+0000.003 () Free space on disk containing Updraft's temporary directory: 23201.8 MB
+0000.003 () Restore job started. Entities to restore: plugins. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false}
+0000.015 () Entity: plugins
+0000.015 () restore_backup(backup_file=backup_2017-12-18-0403_GrowYourLeads_74c348fcf073-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:76:"/var/www/recoverleads.com/public_html/andrew/public/front/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=1)
+0000.015 () Unpacking backup... (backup_2017-12-18-0403_GrowYourLeads_74c348fcf073-plugins.zip, 55.6 Mb)
+0001.576 () Moving old data: filesystem method / updraft_dir is potentially possible
+0001.576 () Moving old data: can potentially use wp_filesystem method / -old
+0001.576 () Moving old data out of the way...
+0001.625 () Top-level entities being moved: akismet, upload-max-file-size, updraftplus, index.php
+0001.625 () Moving unpacked backup into place...
+0002.045 () Top-level entities being moved: et-core-plugin, subscriptio, like2discount, akismet, wwp-vc-gmaps, yith-woocommerce-wishlist, optinmonster, woocommerce, cmb2, yith-woocommerce-compare, cookie-notice, js_composer, mailchimp-for-wp, updraftplus, redux-framework, mpc-massive, google-analytics-for-wordpress, revslider, woozone, jetpack, sb-woocommerce-infinite-scroll, smart-product-viewer, index.php, contact-form-7
+0002.049 () Cleaning up rubbish...
+0002.074 () Restore successful!
+0002.074 () Restore successful

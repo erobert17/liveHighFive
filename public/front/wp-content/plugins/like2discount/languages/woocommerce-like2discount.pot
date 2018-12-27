@@ -1,0 +1,497 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Like 2 Discount\n"
+"POT-Creation-Date: 2017-07-21 11:09+0200\n"
+"PO-Revision-Date: 2015-10-07 18:20+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: like2discount.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/emails-table-class.php:160
+msgid "Show all coupons and emails"
+msgstr ""
+
+#: inc/emails-table-class.php:161
+msgid "Verified Only"
+msgstr ""
+
+#: inc/emails-table-class.php:162
+msgid "Not Verified"
+msgstr ""
+
+#: inc/emails-table.php:48
+msgid "Like 2 Discount &ndash; Emails List"
+msgstr ""
+
+#: inc/emails-table.php:59
+msgid "Download list as CSV file"
+msgstr ""
+
+#: inc/functions.php:220
+msgid ""
+"Hello dear customer,\n"
+"\n"
+"You are about to get the discount coupon \"#coupon-name#\", you just need to "
+"verify email ownership.\n"
+"\n"
+"Please confirm your coupon code \"#coupon-code#\" and get the sale "
+"immediately, click on the link below:\n"
+"\n"
+"#verify-url#\n"
+"\n"
+"\n"
+"If you didn't applied for the sale coupon, please ignore this email!\n"
+"\n"
+"--\n"
+"\n"
+"This email was sent automatically by our system, do not reply to it!\n"
+"\n"
+"#site-name#"
+msgstr ""
+
+#: inc/modal-success-view.php:32
+msgid "Your coupon is now active!"
+msgstr ""
+
+#: inc/modal-success-view.php:38
+msgid ""
+"Thank you for verifying your email, now your coupon is active and ready to "
+"use. You can copy and save it or apply immediately to your cart by clicking "
+"the below button <strong>Apply Coupon Now</strong>."
+msgstr ""
+
+#: inc/modal-success-view.php:41
+#, php-format
+msgid ""
+"Note: This coupon is available for <strong>%s</strong> only. It will expire "
+"on <strong>%s</strong>."
+msgstr ""
+
+#: inc/modal-success-view.php:41
+#, php-format
+msgid "1 day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/modal-success-view.php:49
+msgid "Copy and save it"
+msgstr ""
+
+#: inc/modal-success-view.php:56
+msgid "Apply Coupon Now"
+msgstr ""
+
+#: inc/modal-view.php:60
+msgid "You must click \"Send\" button and select recipients first!"
+msgstr ""
+
+#: inc/modal-view.php:60
+msgid "You must like our page first! Please click \"Like\""
+msgstr ""
+
+#: inc/modal-view.php:60
+msgid "Now enter your email address to activate the coupon code."
+msgstr ""
+
+#: inc/modal-view.php:60
+msgid ""
+"Thank you for liking our page, now your coupon is active and ready to use. "
+"Enjoy it!"
+msgstr ""
+
+#: inc/modal-view.php:70
+msgid "Your email..."
+msgstr ""
+
+#: inc/modal-view.php:70
+msgid "Please enter a valid email!"
+msgstr ""
+
+#: inc/modal-view.php:72
+msgctxt "submit email in l2d dialog"
+msgid "Submit"
+msgstr ""
+
+#: inc/modal-view.php:125
+#, php-format
+msgid "Included products: %s"
+msgstr ""
+
+#: inc/modal-view.php:147
+#, php-format
+msgid "Included categories: %s"
+msgstr ""
+
+#: inc/modal-view.php:157
+msgid "Like our page and"
+msgstr ""
+
+#: inc/modal-view.php:158
+msgid "Get discount coupon"
+msgstr ""
+
+#: inc/modal-view.php:168
+msgid "Your coupon will appear here."
+msgstr ""
+
+#: inc/modal-view.php:171
+msgid "Email confirmation is required."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: inc/settings-tab-class.php:26
+msgid "Like 2 Discount"
+msgstr ""
+
+#: inc/settings-tab-class.php:123
+msgid "General Settings"
+msgstr ""
+
+#: inc/settings-tab-class.php:123
+msgid "Toggle the functionality of Like 2 Discount plugin."
+msgstr ""
+
+#: inc/settings-tab-class.php:126
+msgid "Enable"
+msgstr ""
+
+#: inc/settings-tab-class.php:127
+msgid "Enable Like2Discount coupons"
+msgstr ""
+
+#: inc/settings-tab-class.php:144
+msgid "Email Confirmation"
+msgstr ""
+
+#: inc/settings-tab-class.php:145
+msgid "Require email confirmation"
+msgstr ""
+
+#: inc/settings-tab-class.php:152
+msgid "Display Type"
+msgstr ""
+
+#: inc/settings-tab-class.php:153
+msgid ""
+"Choose Facebook button type to display.<br><br>If set to \"Share\", share "
+"confirmation event is not possible because Facebook API doesn't allow this, "
+"so user may or may not share the page/link. Also when \"Share\" option is "
+"selected, email confirmation for users is automatically requested!<br><br>If "
+"you select \"Send\" button, then Facebook URL is not accepted, include other "
+"domain!"
+msgstr ""
+
+#: inc/settings-tab-class.php:160
+msgid "Like"
+msgstr ""
+
+#: inc/settings-tab-class.php:161
+msgid "Send"
+msgstr ""
+
+#: inc/settings-tab-class.php:167
+msgid "*Facebook Page URL"
+msgstr ""
+
+#: inc/settings-tab-class.php:176
+msgid "*Facebook App ID"
+msgstr ""
+
+#: inc/settings-tab-class.php:188
+msgid "Coupon Settings"
+msgstr ""
+
+#: inc/settings-tab-class.php:188
+msgid "Coupon parameters will be used to create the coupon code."
+msgstr ""
+
+#: inc/settings-tab-class.php:191
+msgid "Individual use"
+msgstr ""
+
+#: inc/settings-tab-class.php:200
+msgid "Allow free shipping"
+msgstr ""
+
+#: inc/settings-tab-class.php:209
+msgid "Apply before tax"
+msgstr ""
+
+#: inc/settings-tab-class.php:218
+msgid "Discount type"
+msgstr ""
+
+#: inc/settings-tab-class.php:219
+msgid "Related to the amount of coupon."
+msgstr ""
+
+#: inc/settings-tab-class.php:226
+msgid "Cart Discount"
+msgstr ""
+
+#: inc/settings-tab-class.php:227
+msgid "Cart % Discount"
+msgstr ""
+
+#: inc/settings-tab-class.php:228
+msgid "Product Discount"
+msgstr ""
+
+#: inc/settings-tab-class.php:229
+msgid "Product % Discount"
+msgstr ""
+
+#: inc/settings-tab-class.php:235
+msgid "Coupon amount"
+msgstr ""
+
+#: inc/settings-tab-class.php:245
+msgid "Coupon availability"
+msgstr ""
+
+#: inc/settings-tab-class.php:255
+msgid "Granted coupons per email"
+msgstr ""
+
+#: inc/settings-tab-class.php:265
+msgid "Usage limit per coupon"
+msgstr ""
+
+#: inc/settings-tab-class.php:275
+msgid "Usage limit per user"
+msgstr ""
+
+#: inc/settings-tab-class.php:285
+msgid "Minimum spend"
+msgstr ""
+
+#: inc/settings-tab-class.php:295
+msgid "Products"
+msgstr ""
+
+#: inc/settings-tab-class.php:306
+msgid "Products excluded"
+msgstr ""
+
+#: inc/settings-tab-class.php:317
+msgid "Product categories"
+msgstr ""
+
+#: inc/settings-tab-class.php:328
+msgid "Categories excluded"
+msgstr ""
+
+#: inc/settings-tab-class.php:344
+msgid "Modal Content"
+msgstr ""
+
+#: inc/settings-tab-class.php:344
+msgid "Setup popup display information."
+msgstr ""
+
+#: inc/settings-tab-class.php:347
+msgid "Modal Title"
+msgstr ""
+
+#: inc/settings-tab-class.php:357
+msgid "Modal Description"
+msgstr ""
+
+#: inc/settings-tab-class.php:367
+msgid "Coupon Name"
+msgstr ""
+
+#: inc/settings-tab-class.php:377
+msgid "Show effect"
+msgstr ""
+
+#: inc/settings-tab-class.php:388
+msgid "Hide effect"
+msgstr ""
+
+#: inc/settings-tab-class.php:404
+msgid "Display Settings"
+msgstr ""
+
+#: inc/settings-tab-class.php:404
+msgid "When do you want to display <strong>Like 2 Discount</strong> modal."
+msgstr ""
+
+#: inc/settings-tab-class.php:407
+msgid "Add to cart"
+msgstr ""
+
+#: inc/settings-tab-class.php:416
+msgid "Entering the site"
+msgstr ""
+
+#: inc/settings-tab-class.php:425
+msgid "Delay time"
+msgstr ""
+
+#: inc/settings-tab-class.php:439
+msgid "Banners"
+msgstr ""
+
+#: inc/settings-tab-class.php:439
+msgid ""
+"Show informational banners about the coupon discounts you grant. <br />You "
+"can use the popup link as shortcode <code>[l2d_link]http://image url[/"
+"l2d_link] or [l2d_link]Get 10% Off[/l2d_link]</code>"
+msgstr ""
+
+#: inc/settings-tab-class.php:443
+msgid "Single item view"
+msgstr ""
+
+#: inc/settings-tab-class.php:453 inc/settings-tab-class.php:495
+#: inc/settings-tab-class.php:542
+msgid "Banner position"
+msgstr ""
+
+#: inc/settings-tab-class.php:460 inc/settings-tab-class.php:502
+#: inc/settings-tab-class.php:549
+msgid "Do not show this banner"
+msgstr ""
+
+#: inc/settings-tab-class.php:461
+msgid "Under the title"
+msgstr ""
+
+#: inc/settings-tab-class.php:462
+msgid "Under the rating"
+msgstr ""
+
+#: inc/settings-tab-class.php:463
+msgid "Under the price"
+msgstr ""
+
+#: inc/settings-tab-class.php:464
+msgid "Under the excerpt"
+msgstr ""
+
+#: inc/settings-tab-class.php:465
+msgid "Under the add to cart"
+msgstr ""
+
+#: inc/settings-tab-class.php:466
+msgid "Under the share links"
+msgstr ""
+
+#: inc/settings-tab-class.php:467
+msgid "Under the product block"
+msgstr ""
+
+#: inc/settings-tab-class.php:469 inc/settings-tab-class.php:507
+msgid "Select the position of image/text banner to show."
+msgstr ""
+
+#: inc/settings-tab-class.php:473 inc/settings-tab-class.php:511
+msgid "Banner CSS style"
+msgstr ""
+
+#: inc/settings-tab-class.php:485
+msgid "Products loop page"
+msgstr ""
+
+#: inc/settings-tab-class.php:503
+msgid "Before the shop loop"
+msgstr ""
+
+#: inc/settings-tab-class.php:504
+msgid "After the shop loop"
+msgstr ""
+
+#: inc/settings-tab-class.php:505
+msgid "Before & after the shop loop"
+msgstr ""
+
+#: inc/settings-tab-class.php:521
+msgid "Show on \"Cart\" page"
+msgstr ""
+
+#: inc/settings-tab-class.php:532
+msgid "Side banner"
+msgstr ""
+
+#: inc/settings-tab-class.php:550
+msgid "Left side"
+msgstr ""
+
+#: inc/settings-tab-class.php:551
+msgid "Right side"
+msgstr ""
+
+#: inc/settings-tab-class.php:553
+msgid "Select the position of image banner to show."
+msgstr ""
+
+#: inc/settings-tab-class.php:561
+msgid "Email Template"
+msgstr ""
+
+#: inc/settings-tab-class.php:561
+msgid "Edit email templates for Like 2 Discount plugin."
+msgstr ""
+
+#: inc/settings-tab-class.php:564
+msgid "Confirmation email"
+msgstr ""
+
+#: inc/settings-tab-class.php:610
+msgid "Enter product names"
+msgstr ""
+
+#: inc/settings-tab-class.php:611
+msgid "Enter product category names"
+msgstr ""
+
+#: inc/submit-email-coupon.php:35
+msgid "This email has already reached the limit of granted coupons!"
+msgstr ""
+
+#: inc/submit-email-coupon.php:42
+msgid ""
+"You are one step away to get the coupon, we have sent you a confirmation "
+"email, please check your inbox."
+msgstr ""
+
+#: inc/submit-email-coupon.php:50
+msgid "Confirm your coupon code and get the discount."
+msgstr ""
+
+#: like2discount.php:132
+msgid "L2D Emails"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://laborator.co/view-plugin/like2discount/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Offer discounts coupons to all of them who like your Facebook Page. It "
+"includes email verification for each coupon, so you will get 1 like + 1 "
+"customer email in return, cool!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Laborator"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://laborator.co"
+msgstr ""

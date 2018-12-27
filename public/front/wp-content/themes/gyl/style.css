@@ -1,0 +1,22 @@
+/*
+ Theme Name:   gyl
+ Theme URI:    http://8theme.com/
+ Description:  XStore Child Theme
+ Author:       8theme
+ Author URI:   http://8theme.com
+ Template:     xstore
+ Version:      1.0
+ Text Domain:  xstore-child
+*/
+
+@media only screen and (max-width: 480px), (max-width: 812px) and (orientation: landscape) {
+  .navbar-header .ico-label-right:first-of-type {
+    margin-right: 1.5rem;
+  }
+  .header-logo img {
+    max-width: 190px !important;
+  }
+  .fixed-header .navbar-header {
+    width: 40% !important;
+  }
+}

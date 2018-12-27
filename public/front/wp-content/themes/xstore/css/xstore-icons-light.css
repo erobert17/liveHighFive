@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'xstore-icons';
+  src:
+    url('../fonts/xstore-icons-light.ttf') format('truetype'),
+    url('../fonts/xstore-icons-light.woff') format('woff'),
+    url('../fonts/xstore-icons-light.svg#xstore-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,18 @@
+2018-11-29T11:28:21+00:00 CRITICAL Uncaught Error: Call to a member function delete() on null in /var/www/recoverleads.com/public_html/andrew/public/front/wp-content/plugins/revslider/includes/slider.class.php:1888
+Stack trace:
+#0 /var/www/recoverleads.com/public_html/andrew/public/front/wp-content/plugins/revslider/admin/revslider-admin.class.php(1020): RevSliderSlider->importSliderFromPost('true', 'none', false, 'fa23dab5bf1139c...', Array)
+#1 /var/www/recoverleads.com/public_html/andrew/public/front/wp-content/plugins/revslider/admin/revslider-admin.class.php(1295): RevSliderAdmin::importSliderTemplateHandle('http://growyour...', 'true', 'none', Array)
+#2 /var/www/recoverleads.com/public_html/andrew/public/front/wp-includes/class-wp-hook.php(286): RevSliderAdmin::onAjaxAction('')
+#3 /var/www/recoverleads.com/public_html/andrew/public/front/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /var/www/recoverleads.com/public_html/andrew/public/front/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /var/www/recove in /var/www/recoverleads.com/public_html/andrew/public/front/wp-content/plugins/revslider/includes/slider.class.php on line 1888
+
+2018-11-29T11:31:53+00:00 CRITICAL Uncaught Error: Call to a member function delete() on null in /var/www/recoverleads.com/public_html/andrew/public/front/wp-content/plugins/revslider/includes/slider.class.php:1888
+Stack trace:
+#0 /var/www/recoverleads.com/public_html/andrew/public/front/wp-content/plugins/revslider/admin/revslider-admin.class.php(1020): RevSliderSlider->importSliderFromPost('true', 'none', false, 'fa23dab5bf1139c...', Array)
+#1 /var/www/recoverleads.com/public_html/andrew/public/front/wp-content/plugins/revslider/admin/revslider-admin.class.php(1295): RevSliderAdmin::importSliderTemplateHandle('http://growyour...', 'true', 'none', Array)
+#2 /var/www/recoverleads.com/public_html/andrew/public/front/wp-includes/class-wp-hook.php(286): RevSliderAdmin::onAjaxAction('')
+#3 /var/www/recoverleads.com/public_html/andrew/public/front/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /var/www/recoverleads.com/public_html/andrew/public/front/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /var/www/recove in /var/www/recoverleads.com/public_html/andrew/public/front/wp-content/plugins/revslider/includes/slider.class.php on line 1888
+
