@@ -1,3 +1,0 @@
-/**
- * Subscriptio Plugin Backend Scripts
- */
